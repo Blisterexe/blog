@@ -77,7 +77,7 @@ Autrement dit, bien que `xdg-decoration` soit techniquement hors spécifications
 
 #### « Les décorations de fenêtre font partie de l'application et ne devraient donc pas relever du domaine du bureau. »
 
-De nombreux développeurs et utilisateurs considèrent la barre de titre comme quelque chose qui fait partie du bureau, tandis que d'autres ne sont pas pensent que ça fait partie de l'application. Ce n'est pas un problème, juste une différence de philosophie.
+De nombreux développeurs et utilisateurs considèrent la barre de titre comme quelque chose qui fait partie du bureau, tandis que d'autres pensent que ça fait partie de l'application. Ce n'est pas un problème, juste une différence de philosophie.
 
 Le vrai problème, c'est l'idée que le projet GNOME ne devrait pas répondre aux besoins du premier groupe. Ce serait comme si GNOME ne prenait pas en charge `xdg-file-chooser` et affirmait que chaque application *devrait* fournir son propre sélecteur de fichiers. Mais GNOME le prend en charge, et seules les applications qui souhaitent implémenter leur propre sélecteur de fichiers le font.
 
@@ -91,7 +91,7 @@ J'espère avoir réussi à démontrer pourquoi il serait intéressant pour GNOME
 
 J'ai évoqué à plusieurs reprises dans cet article à quoi ressemblerait la mise en œuvre des SSD, sans l'expliquer en détail. C'est ce que je vais maintenant faire.
 
-GNOME mettrait évidement en place les protocoles pertinents et activerait les décorations côté serveur sur toutes les applications qui ne demandent pas explicitement le SSD. Ceci serait fait afin d'appliquer le SSD aux applications qui ne fournissent que le CSD comme solution de secours pour les compositeurs qui ne prennent pas en charge le SSD.
+GNOME mettrait évidement en place les protocoles pertinents et activerait les décorations côté serveur sur toutes les applications qui ne demandent pas explicitement le CSD. Ceci serait fait afin d'appliquer le SSD aux applications qui ne fournissent que le CSD comme solution de secours pour les compositeurs qui ne prennent pas en charge le SSD.
 
 Pour être clair, cela ne s'appliquerait pas aux applications conçues pour une barre d'en-tête unifiée, comme les applications GNOME.
 
