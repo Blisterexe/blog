@@ -82,7 +82,7 @@ jobs:
           hugo \
             --gc \
             --minify \
-            --baseURL "blister.zip/" \
+            --baseURL "/" \
             --cacheDir "${{ runner.temp }}/hugo_cache"
       - name: Cache save
         id: cache-save
